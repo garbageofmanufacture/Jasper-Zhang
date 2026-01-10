@@ -1,18 +1,19 @@
 ---
-
 import { getEntry, render } from "astro:content";
 import Markdown from "@components/misc/Markdown.astro";
 import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 
+// 1. 如果你页面里没用到这个组件，直接把下面这一行删掉
+// import LightDarkSwitch from "../components/LightDarkSwitch.svelte"; 
 
 const aboutPost = await getEntry("spec", "about");
 
 if (!aboutPost) {
-	throw new Error("About page content not found");
+    throw new Error("About page content not found");
 }
-import LightDarkSwitch from "../components/LightDarkSwitch.svelte";
+
 const { Content } = await render(aboutPost);
 ---
 <MainGridLayout title={i18n(I18nKey.about)} description={i18n(I18nKey.about)}>
