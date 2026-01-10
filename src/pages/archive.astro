@@ -3,7 +3,11 @@ import ArchivePanel from "@components/ArchivePanel.svelte";
 import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
-import { getSortedPostsList, getTagList, getCategoryList } from "../utils/content-utils";
+import {
+	getCategoryList,
+	getSortedPostsList,
+	getTagList,
+} from "../utils/content-utils";
 
 // 获取原始数据对象
 const sortedPostsList = await getSortedPostsList();
