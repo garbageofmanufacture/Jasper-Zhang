@@ -5,9 +5,6 @@ import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 
-// 1. 如果你页面里没用到这个组件，直接把下面这一行删掉
-// import LightDarkSwitch from "../components/LightDarkSwitch.svelte"; 
-
 const aboutPost = await getEntry("spec", "about");
 
 if (!aboutPost) {
