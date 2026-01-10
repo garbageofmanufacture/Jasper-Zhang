@@ -6,12 +6,13 @@ import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 
+
 const aboutPost = await getEntry("spec", "about");
 
 if (!aboutPost) {
 	throw new Error("About page content not found");
 }
-
+import LightDarkSwitch from "../components/LightDarkSwitch.svelte";
 const { Content } = await render(aboutPost);
 ---
 <MainGridLayout title={i18n(I18nKey.about)} description={i18n(I18nKey.about)}>
