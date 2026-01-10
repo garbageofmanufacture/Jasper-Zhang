@@ -3,6 +3,10 @@
 @layer components {
     .card-base {
         @apply rounded-[var(--radius-large)] overflow-hidden bg-[var(--card-bg)] transition;
+        /* 替换背景色为半透明，并添加毛玻璃效果 */
+    background-color: rgba(255, 255, 255, 0.1) !important; 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     }
     h1, h2, h3, h4, h5, h6, p, a, span, li, ul, ol, blockquote, code, pre, table, th, td, strong {
         @apply transition;
@@ -149,4 +153,10 @@
         color: var(--codeblock-bg);
     }
   }
+}
+body {
+    background-image: url('assets/images/background.jpg'); /* 你的背景图路径 */
+    background-attachment: fixed;            /* 背景固定，不随滚动条滚动 */
+    background-size: cover;                  /* 自动铺满全屏 */
+    background-position: center;             /* 居中显示 */
 }
