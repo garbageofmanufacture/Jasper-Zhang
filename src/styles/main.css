@@ -2,7 +2,7 @@
 
 @layer components {
     body {
-    background-image: url('assets/images/background.jpg'); /* 你的背景图路径 */
+    background-image: url('/background.jpg'); /* 你的背景图路径 */
     background-attachment: fixed;            /* 背景固定，不随滚动条滚动 */
     background-size: cover;                  /* 自动铺满全屏 */
     background-position: center;             /* 居中显示 */
