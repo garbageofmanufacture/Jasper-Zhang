@@ -44,7 +44,7 @@ image: './cover.jpg'
 * **GitHub**: [garbageofmanufacture](https://github.com/garbageofmanufacture)
 * **本站域名**: [jasperz.top](https://jasperz.top)
 * **手机号码**: [18639094779](tel:18639094779) (点击拨打)
-* **QQ联系**: <details><summary>点击查看二维码</summary>![QQ二维码](./QQ-qr.jpg)</details>
+* **QQ联系**: <details><summary>点击查看二维码</summary>![QQ二维码](./qq-qr.jpg)</details>
 * **微信联系**: <details><summary>点击查看二维码</summary>![微信二维码](./wechat-qr.jpg)</details>
 
 ---
