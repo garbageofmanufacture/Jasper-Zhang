@@ -43,18 +43,9 @@ image: './cover.jpg'
 
 * **GitHub**: [garbageofmanufacture](https://github.com/garbageofmanufacture)
 * **本站域名**: [jasperz.top](https://jasperz.top)
-* **手机号码**: [138xxxx8888](tel:18639094779) (点击拨打)
-* **QQ 联系**: [点击发起会话](tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1612687897)
+* **手机号码**: [18639094779](tel:18639094779) (点击拨打)
+* **QQ联系**: <details><summary>点击查看二维码</summary>![QQ二维码](./QQ-qr.jpg)</details>
 * **微信联系**: <details><summary>点击查看二维码</summary>![微信二维码](./wechat-qr.jpg)</details>
 
 ---
-
-<div class="flex flex-wrap gap-4">
-  <a href="tencent://message/?uin=162687897&Site=PoweredByFuwari&Menu=yes" class="btn-regular-dark px-4 py-2 rounded-lg">
-    <i class="iconfont icon-qq mr-2"></i>QQ 交谈
-  </a>
-
-  <a href="tel:18639094779" class="btn-regular-dark px-4 py-2 rounded-lg">
-     <i class="iconfont icon-phone mr-2"></i>拨打电话
-  </a>
 </div>
