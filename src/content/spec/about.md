@@ -45,7 +45,7 @@ image: './cover.jpg'
 * **本站域名**: [jasperz.top](https://jasperz.top)
 * **手机号码**: [138xxxx8888](tel:18639094779) (点击拨打)
 * **QQ 联系**: [点击发起会话](tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1612687897)
-* **微信联系**: <details><summary>点击查看二维码</summary>![微信二维码](./wechat-qr.png)</details>
+* **微信联系**: <details><summary>点击查看二维码</summary>![微信二维码](./wechat-qr.jpg)</details>
 
 ---
 
