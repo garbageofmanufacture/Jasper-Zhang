@@ -2,7 +2,10 @@
 
 @layer components {
     /* 1. 基础页面背景设置 */
-    body {
+    html,body {
+        margin: 0;
+        padding: 0;
+        min-height: 100%; /* 确保高度至少撑满屏幕 */
         background-image: url('/background.jpg'); /* 你的背景图路径 */
         /* 核心设置：允许图片在水平和垂直方向上重复平铺 */
         background-repeat: repeat;
@@ -25,7 +28,9 @@
         /* 如果是深色模式下，建议边框也带一点透明度会更好看 */
         @apply border border-white/10;
     }
-
+    .main-content {
+  background-color: rgba(0, 0, 0, 0.7) !important; /* 70% 透明度的黑，既能看清字也能看到背后的平铺 */
+}
     /* 4. 其余原有的样式定义 */
     h1, h2, h3, h4, h5, h6, p, a, span, li, ul, ol, blockquote, code, pre, table, th, td, strong {
         @apply transition;
