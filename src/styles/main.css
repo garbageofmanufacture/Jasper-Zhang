@@ -4,6 +4,8 @@
     /* 1. 基础页面背景设置 */
     body {
         background-image: url('/background.jpg'); /* 你的背景图路径 */
+        /* 核心设置：允许图片在水平和垂直方向上重复平铺 */
+        background-repeat: repeat;
         background-attachment: fixed;            /* 背景固定，不随滚动条滚动 */
         background-size: cover;                  /* 自动铺满全屏 */
         background-position: center;             /* 居中显示 */
