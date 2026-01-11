@@ -13,17 +13,17 @@ autodl上运行的网页可以通过在终端输出包持续链接
 
 ssh -o ServerAliveInterval=30 -CNg -L 8501:127.0.0.1:8501 root@connect.nmb1.seetacloud.com -p 38593
 
-![image-20260104142450419](D:\appdata\Typora\typora-user-images\image-20260104142450419.png)
+![image-20260104142450419](./image-20260104142450419.png)
 
 然后输入http://localhost:8502进行查看
 
 加速下载
 
-![image-20260104144412717](D:\appdata\Typora\typora-user-images\image-20260104144412717.png)
+![image-20260104144412717](./image-20260104144412717.png)
 
-![image-20260104151308629](D:\appdata\Typora\typora-user-images\image-20260104151308629.png)
+![image-20260104151308629](./image-20260104151308629.png)
 
-![image-20260110171714004](D:\appdata\Typora\typora-user-images\image-20260110171714004.png)
+![image-20260110171714004](./image-20260110171714004.png)
 
 $env:HTTPS_PROXY="http://127.0.0.1:7890"; npx create-astro@latest --template saicaca/fuwari
 
@@ -43,7 +43,7 @@ bge重排序模型
 
 
 
-![image-20260104205212472](D:\appdata\Typora\typora-user-images\image-20260104205212472.png)
+![image-20260104205212472](./image-20260104205212472.png)
 
 icdar19_modern如何下载。pth文件
 
@@ -63,25 +63,25 @@ icdar19_modern如何下载。pth文件
 
 
 
-![image-20260107214651938](D:\appdata\Typora\typora-user-images\image-20260107214651938.png)
+![image-20260107214651938](./image-20260107214651938.png)
 
 
 
-![image-20260107214702614](D:\appdata\Typora\typora-user-images\image-20260107214702614.png)
-
-
-
-
-
-
-
-![image-20260107220005208](D:\appdata\Typora\typora-user-images\image-20260107220005208.png)
+![image-20260107214702614](./image-20260107214702614.png)
 
 
 
 
 
-![image-20260108181730087](D:\appdata\Typora\typora-user-images\image-20260108181730087.png)
+
+
+![image-20260107220005208](./image-20260107220005208.png)
+
+
+
+
+
+![image-20260108181730087](./image-20260108181730087.png)
 
 释放显存
 
@@ -97,17 +97,17 @@ nvidia-smi
 
 
 
-![image-20260108191204032](D:\appdata\Typora\typora-user-images\image-20260108191204032.png)
+![image-20260108191204032](./image-20260108191204032.png)
 
-![image-20260108192225718](D:\appdata\Typora\typora-user-images\image-20260108192225718.png)
+![image-20260108192225718](./image-20260108192225718.png)
 
-![image-20260108193011050](D:\appdata\Typora\typora-user-images\image-20260108193011050.png)
-
-
+![image-20260108193011050](./image-20260108193011050.png)
 
 
 
-![image-20260108193831508](D:\appdata\Typora\typora-user-images\image-20260108193831508.png)
+
+
+![image-20260108193831508](./image-20260108193831508.png)
 
 使用步骤
 
