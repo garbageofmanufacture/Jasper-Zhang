@@ -1,10 +1,10 @@
 ---
 title: autodl应用
 published: 2026-01-10
-description: 学习autodl的心酸经理/图片后续会处理
+description: 学习autodl的的一些经验
 image: "./cover.jpg" # 文章封面图（可选）
 tags: [实验]
-category: 日志
+category: 实验总结
 draft: false # 如果设为 true，文章将不会发布
 ---
 

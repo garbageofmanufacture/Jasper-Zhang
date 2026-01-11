@@ -1,9 +1,9 @@
 ---
 title: 联邦学习和rag（检索增强生成）结合的意义
 published: 2026-01-10
-description: AI省的的md
+description: 联邦学习和rag相互结合有什么意义
 image: "./cover.jpg" # 文章封面图（可选）
-tags: [实验]
+tags: [调研]
 category: 日志
 draft: false # 如果设为 true，文章将不会发布
 ---
